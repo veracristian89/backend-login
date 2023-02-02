@@ -8,7 +8,15 @@ package com.login.backendlogin;
  *
  * @author c_ver
  */
-public class Users {
+public class User {
+
+    public User(String usr_first_name, String usr_last_name, String usr_address) {
+        this.usr_first_name = usr_first_name;
+        this.usr_last_name = usr_last_name;
+        this.usr_address = usr_address;
+    }
+
+   
 
     public String getUsr_first_name() {
         return usr_first_name;
